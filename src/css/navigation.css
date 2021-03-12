@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#bootstrap-override.header {
+  height: 100vh;
+  width: 25%;
+  background: #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+#bootstrap-override .container ul {
+  list-style: none;
+  padding: 2rem 0;
+}
+#bootstrap-override .container .logo {
+  width: 70%;
+  padding: 0.5rem 0;
+}
+#bootstrap-override .container h1 {
+  font-weight: normal;
+}
+#bootstrap-override .container .small-icon {
+  width: 15%;
+  align-self: center;
+}
+#bootstrap-override .container .small-icon img {
+  width: 100%;
+}
+#bootstrap-override .container a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
+}
+#bootstrap-override .container {
+  width: 75%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+#bootstrap-override .container li {
+  padding: 0.5rem;
+  line-height: 2.5rem;
+}
