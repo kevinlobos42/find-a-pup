@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 import {InputGroup , Button, Card} from  'react-bootstrap'
-import Result from './Result'
-import DropdownItem from 'react-bootstrap/esm/DropdownItem'
 import '../css/Search.css'
 
 const Search = ({breeds}) =>{
@@ -26,7 +24,6 @@ const Search = ({breeds}) =>{
         const subs = document.getElementById("sub-breeds")
         subs.innerHTML=""
         let val = ev.target.value
-        let list=[]
         if(breeds[val].length>0){
 
             breeds[val].forEach(b=>{
