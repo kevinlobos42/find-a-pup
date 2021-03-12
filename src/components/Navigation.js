@@ -6,23 +6,24 @@ const Navigation = ({image, github})=>{
     return(
         <div className="header" id="bootstrap-override">
             <div className="container">
-                <img src={image} className="logo" />
+                <img src={image} alt=
+                "Logo" className="logo" />
                 <h1>Find a Pup</h1>
                 <ul>
                     <li>
-                        <a href="#">Search</a>
+                        <a >Search</a>
                         <hr />
                     </li>
                     <li>
-                        <a href="#">All Breeds</a>
+                        <a>All Breeds -- TBD</a>
                         <hr />
                     </li>
                     <li>
-                        <a href="#">Random Breed</a>
+                        <a>Random Breed -- TBD</a>
                         <hr />
                     </li>
                 </ul>
-                <a href="https://www.github.com" className="small-icon"><img src={github}/></a>
+                <a href="https://www.github.com" className="small-icon"><img src={github} alt="Github"/></a>
             </div>
         </div>
         /*
