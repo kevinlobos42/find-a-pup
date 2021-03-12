@@ -2,12 +2,12 @@ import React from 'react'
 import '../css/navigation.css'
 
 
-const Navigation = ({image, github})=>{
-    return(
+const Navigation = ({ image, github }) => {
+    return (
         <div className="header" id="bootstrap-override">
             <div className="container">
                 <img src={image} alt=
-                "Logo" className="logo" />
+                    "Logo" className="logo" />
                 <h1>Find a Pup</h1>
                 <ul>
                     <li>
@@ -23,7 +23,7 @@ const Navigation = ({image, github})=>{
                         <hr />
                     </li>
                 </ul>
-                <a href="https://www.github.com" className="small-icon"><img src={github} alt="Github"/></a>
+                <a href="https://github.com/kevinlobos42/find-a-pup" className="small-icon"><img src={github} alt="Github" /></a>
             </div>
         </div>
         /*
