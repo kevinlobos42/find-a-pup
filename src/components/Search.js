@@ -94,7 +94,7 @@ const Search = ({breeds}) =>{
                 >
                     <Card.Img src={res}></Card.Img>
                     <Card.Body>
-                        <Card.Title className="card-title">{res.split('/')[4].replace('-',' ')}</Card.Title> 
+                        <Card.Title className="card-title">{res.split('/')[4].replace('-',', ')}</Card.Title> 
                     </Card.Body>
                 </Card>
 

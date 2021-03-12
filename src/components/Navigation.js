@@ -11,15 +11,15 @@ const Navigation = ({image, github})=>{
                 <h1>Find a Pup</h1>
                 <ul>
                     <li>
-                        <a >Search</a>
+                        <a href="/">Search</a>
                         <hr />
                     </li>
                     <li>
-                        <a>All Breeds -- TBD</a>
+                        <a href="/">All Breeds -- TBD</a>
                         <hr />
                     </li>
                     <li>
-                        <a>Random Breed -- TBD</a>
+                        <a href="/">Random Breed -- TBD</a>
                         <hr />
                     </li>
                 </ul>
